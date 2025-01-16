@@ -35,10 +35,39 @@
     </div>
   </div>
 </nav>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Assignment 1
+                 </a>
+                 <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="/Assignment-1/Assignment-1.aspx">Assignment1.1</a></li>
+       
+                 </ul>
+                 </li>
+                 <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Assignment 2
+                    </a>
+                 <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="/Assignment-2/Assignment-21.aspx">Assignment21</a></li>
+                    <li><a class="dropdown-item" href="/Assignment-2/Assignment-22.aspx">Assignment22</a></li>
+                   <li><a class="dropdown-item" href="/Assignment-2/Assignment-23.aspx">Assignment23</a></li>
+                  </ul>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Assignment 3
+                 </a>
+                 <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="/Assignment-3/Assignment-3.aspx">Assignment3</a></li>
 
-        </div>
-        <p><a class="link-offset-1" href="Assignment-1.aspx"'>Assigment-1</a></p>
-        
+                  </div>
+                   <p>
+                     <a class="link-offset-1" href="/Assignment-1/Assignment-1.aspx">Assigment-1</a>
+                  </p>
+                 <p>
+                    <a class="link-offset-1" href="/Assignment-2/Assignment-23.aspx">Assigment-2</a>
+                   </p> 
+               <p><a class="link-offset-1" href="Assignment-3/Assignment-3.aspx">Assigment-3</a></p>
+               </li>
+            </ul> 
     </form>
 </body>
 </html>

@@ -100,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assignment-2\Assignment-21.aspx" />
+    <Content Include="Assignment-2\Assignment-22.aspx" />
+    <Content Include="Assignment-2\Assignment-23.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -150,7 +153,8 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="Assignment-1.aspx" />
+    <Content Include="Assignment-1\Assignment-1.aspx" />
+    <Content Include="Assignment-3\Assignment-3.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -194,6 +198,27 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Assignment-2\Assignment-21.aspx.cs">
+      <DependentUpon>Assignment-21.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment-2\Assignment-21.aspx.designer.cs">
+      <DependentUpon>Assignment-21.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment-2\Assignment-22.aspx.cs">
+      <DependentUpon>Assignment-22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment-2\Assignment-22.aspx.designer.cs">
+      <DependentUpon>Assignment-22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment-2\Assignment-23.aspx.cs">
+      <DependentUpon>Assignment-23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment-2\Assignment-23.aspx.designer.cs">
+      <DependentUpon>Assignment-23.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,12 +265,19 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Assignment-1.aspx.cs">
+    <Compile Include="Assignment-1\Assignment-1.aspx.cs">
       <DependentUpon>Assignment-1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Assignment-1.aspx.designer.cs">
+    <Compile Include="Assignment-1\Assignment-1.aspx.designer.cs">
       <DependentUpon>Assignment-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment-3\Assignment-3.aspx.cs">
+      <DependentUpon>Assignment-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment-3\Assignment-3.aspx.designer.cs">
+      <DependentUpon>Assignment-3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
